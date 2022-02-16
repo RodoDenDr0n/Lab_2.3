@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;">
+  <body data-home-page="Main.html", data-home-page-title="Main">
+    <section>
+      <div>
+        <h1>Find location of your friends&nbsp;<br>
+          <span style="font-weight: 700;"></span>in Twitter!
+        </h1>
+        <div>
+          <form name="form", action="{{ url_for('form_post') }}", method="post", style="padding: 15px;">
+              <label>Enter friend's nickname:</label>
+              <input type="text", placeholder="Nickname", name="nickname">
+              <button>Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
